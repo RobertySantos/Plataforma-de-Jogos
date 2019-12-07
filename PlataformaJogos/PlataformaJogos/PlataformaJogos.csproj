@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A76E83B6-F601-4E29-A073-10514969A9EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlataformaJogos</RootNamespace>
+    <AssemblyName>PlataformaJogos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcertouPalavra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcertouPalavra.Designer.cs">
+      <DependentUpon>AcertouPalavra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="dados.cs" />
+    <Compile Include="Embarcações.cs" />
+    <Compile Include="EmbarcaçõesHard.cs" />
+    <Compile Include="ErrouPalavra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrouPalavra.Designer.cs">
+      <DependentUpon>ErrouPalavra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganhou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganhou.designer.cs">
+      <DependentUpon>Ganhou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrucoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instrucoes.designer.cs">
+      <DependentUpon>Instrucoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel.designer.cs">
+      <DependentUpon>Nivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel1.designer.cs">
+      <DependentUpon>Nivel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nivel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nivel2.designer.cs">
+      <DependentUpon>Nivel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perdeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perdeu.designer.cs">
+      <DependentUpon>Perdeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegraForca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegraForca.Designer.cs">
+      <DependentUpon>RegraForca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaEscolha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaEscolha.designer.cs">
+      <DependentUpon>TelaEscolha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInicial.designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaJogo4x4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaJogo4x4.designer.cs">
+      <DependentUpon>TelaJogo4x4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaJogo6x6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaJogo6x6.designer.cs">
+      <DependentUpon>TelaJogo6x6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaJogoForca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaJogoForca.Designer.cs">
+      <DependentUpon>TelaJogoForca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaRegras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaRegras.designer.cs">
+      <DependentUpon>TelaRegras.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcertouPalavra.resx">
+      <DependentUpon>AcertouPalavra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrouPalavra.resx">
+      <DependentUpon>ErrouPalavra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganhou.resx">
+      <DependentUpon>Ganhou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrucoes.resx">
+      <DependentUpon>Instrucoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel.resx">
+      <DependentUpon>Nivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel1.resx">
+      <DependentUpon>Nivel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel2.resx">
+      <DependentUpon>Nivel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perdeu.resx">
+      <DependentUpon>Perdeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegraForca.resx">
+      <DependentUpon>RegraForca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaEscolha.resx">
+      <DependentUpon>TelaEscolha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo4x4.resx">
+      <DependentUpon>TelaJogo4x4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogo6x6.resx">
+      <DependentUpon>TelaJogo6x6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaJogoForca.resx">
+      <DependentUpon>TelaJogoForca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaRegras.resx">
+      <DependentUpon>TelaRegras.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\fundo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
